@@ -1,0 +1,590 @@
+.box {
+  width: 100%;
+  height: 4vh;
+  background-color: #fff3bd;
+  /* position: fixed;
+    z-index: 1000;
+     */
+}
+
+.start {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0px;
+}
+.headline {
+  font-family: system-ui;
+  font-weight: 500;
+  color: #9f9f9f;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px !important;
+}
+
+.store {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 15px;
+}
+
+.box2 {
+  width: 100%;
+  height: 13vh;
+  font-weight: 700;
+  color: white;
+  background-color: #00b3b8;
+  justify-content: space-evenly;
+}
+
+.headline2 {
+  align-items: center;
+  gap: 35px;
+}
+
+.searchb1 {
+  width: 260px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 14px 0px;
+  border: 1px solid;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  background-color: #00000000;
+}
+.fontamistiom {
+  font-family: system-ui;
+}
+.icon3 {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+}
+
+.Qrcode {
+  height: 55px;
+  width: 55px;
+}
+
+.searchb2 {
+  border: 1px solid #fff7f700;
+  background-color: transparent;
+  font-weight: 700;
+  color: white;
+}
+.scanner {
+  padding-top: 90px;
+  margin-left: -10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.searchb2::placeholder {
+  color: white;
+}
+
+.design1 {
+  font-size: 38px;
+  font-family: serif;
+  padding: 20px 20px;
+}
+.design {
+  font-size: 38px;
+  margin: 0px 25px;
+  font-family: serif;
+  padding: 20px 30px;
+}
+.leftside {
+  width: 100%;
+  display: flex;
+  margin-left: 15px;
+  color: #696969d6;
+  font-size: 13px;
+  box-shadow: 1px 0px 0px 0px white;
+  /* Box-shadow: 0px 0px 8px 1 */
+  flex-direction: column;
+  align-items: center;
+}
+.leftside1 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: center;
+  margin-left: 5px;
+}
+.box22 {
+  width: 140px;
+  margin-left: 55px;
+  text-align: center;
+}
+.img1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 75px;
+  margin-bottom: 10px;
+}
+.cover {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 14px;
+}
+.cover2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.headline3 {
+  font-size: 15px;
+}
+.full {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.full2 {
+  width: 40%;
+}
+
+.full1 {
+  margin-top: 105px;
+}
+
+.rightside {
+  height: 65vh;
+  width: 70%;
+  display: flex;
+  box-shadow: 0px 14px 4px 2px rgb(255 255 255);
+}
+.presentage {
+  border: 1px solid #757474;
+  width: 74px;
+  border-radius: 3px;
+  height: 25px;
+  color: #757474;
+}
+
+.bgimg1 {
+  background-image: url(./main.jfif);
+  background-size: 100% 100%;
+  height: 65vh;
+  width: 100%;
+  color: white;
+  background-color: #304b436e;
+  background-blend-mode: overlay;
+}
+
+.shop {
+  border: 2px solid white;
+  height: 30px;
+  width: 100px;
+}
+.letter1 {
+  padding: 80px 21px;
+}
+
+.letter2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.letter3 {
+  gap: 5px;
+}
+
+.right1 {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.letter4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cover3 {
+  border: 2px solid black;
+  height: 65vh;
+  width: 25%;
+  margin-left: 15px;
+}
+
+.location1 {
+  height: 150px;
+  margin-top: 40px;
+  padding: 0px 50px;
+}
+.loca {
+  height: 150px;
+  margin-top: 10px;
+  padding: 0px 50px;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 155px;
+}
+
+.textbox {
+  height: 29px;
+  width: 80px;
+  text-align: center;
+}
+.butex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+}
+.image2 {
+  width: 100%;
+  height: 60%;
+}
+
+.inputbox {
+  height: 27px;
+  width: 79px;
+  text-align: center;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 23%;
+  gap: 10px;
+}
+.card2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+
+.image3 {
+  height: 70%;
+  width: 70%;
+}
+
+.kidsimg {
+  width: 100%;
+  height: 50vh;
+}
+.amount {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.boxalign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.kidscard {
+  width: 20%;
+}
+.kidscard1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.star {
+  color: orange !important;
+}
+.strike {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.kitchanname {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: black;
+  margin: 35px 0px;
+}
+
+.fonthead {
+  font-size: 38px;
+  font-family: serif;
+}
+.kitchancard {
+  height: 31vh;
+  width: 150px;
+}
+.kitchanhig {
+  width: 100%;
+  height: 24vh;
+  border-radius: 80px;
+}
+.watername1 {
+  margin-top: 12px;
+  text-align: center;
+}
+.kitimg {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  padding: 0px 30px;
+}
+
+.kitchanlet {
+  height: 60vh;
+  width: 20%;
+  background-image: url(./Navy\ Blue\ Dress\ bg.img.jfif);
+}
+.kittext {
+  color: white;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding: 30px 30px;
+}
+
+.kitimg1 {
+  background-image: url(./Chimneys.jfif);
+  height: 60vh;
+  width: 80%;
+  color: black;
+  background-size: 100% 100%;
+  background-blend-mode: overlay;
+  background-color: #31313173;
+}
+.storetitle {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.gopal {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.storetitle1 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.storetitletop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  color: white;
+}
+.kcard {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.kcardhight {
+  width: 100%;
+  height: 40vh;
+}
+
+.amount1 {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.star1 {
+  color: orange !important;
+}
+
+/* .inputbox1.{
+    height: 20px;
+    width: 30px;
+    text-align: center;
+} */
+.strike1 {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+.boxinput1 {
+  height: 20px;
+  width: 30px;
+  text-align: center;
+}
+.newlan1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.namenew {
+  font-size: 38px;
+  font-family: serif;
+  padding: 20px 30px;
+}
+.cookerfull {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 35px;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.cookerimg {
+  background-image: url(./rice\ cooker\ bgimg.jfif);
+  height: 65vh;
+  width: 45%;
+  background-size: 100% 100%;
+  background-blend-mode: overlay;
+  background-color: #00000059;
+}
+
+.cookerimg1 {
+  background-image: url(./induction\ cooktops\ \ bgimg2.jfif);
+  height: 65vh;
+  width: 45%;
+  background-size: 100% 100%;
+  background-blend-mode: overlay;
+  background-color: #00000059;
+}
+.cookerstyle {
+  font-size: 25px;
+  font-family: -webkit-body;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 312px;
+}
+
+.lastfull {
+  height: 25vh;
+  width: 100%;
+  background-color: #c4feff;
+}
+.lastlogo {
+  font-size: 66px;
+}
+.last1 {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 0px 80px;
+}
+
+.start3 {
+  color: #9f9f9f;
+}
+
+.detailsfull {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+.details1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px !important;
+}
+.paymentlogo {
+  height: 40px;
+  width: 100px;
+}
+
+.lasttop {
+  height: 20vh;
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.lasttop1 {
+  width: 25%;
+}
+
+.lasttop2 {
+  width: 30%;
+}
+
+.lasttop3 {
+  width: 30%;
+}
+
+.searchb3 {
+  width: 280px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid rgb black;
+  border-radius: 10px;
+  margin: 14px 0px;
+  border: 1px solid;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  background-color: #00000000;
+}
+.searchb4 {
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.mediaicon {
+  font-size: 40px;
+  gap: 30px;
+}
+.fontw {
+  font-weight: 900;
+}
+/* .lastfullboxx{
+    width: 100%;
+    height: 25vh;
+    background-color: blue;
+} */
+
+/* @media (max-width: 320px) {
+  .cover {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .leftside {
+    width: 100%;
+    display: flex;
+    margin-left: 8px;
+    color: #696969d6;
+    font-size: 13px;
+    box-shadow: 1px 0px 0px 0px white;
+    flex-direction: column;
+    align-items: center;
+  }
+} */
